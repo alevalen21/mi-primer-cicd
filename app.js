@@ -9,7 +9,7 @@ function sumar(a, b) {
 }
 
 app.get('/', (req, res) => {
-  res.json({ mensaje: 'Hola Mundo', version: '1.0' });
+  res.json({ mensaje: 'Hola Arquitectos', version: '2.0' });
 });
 
 app.get('/sumar/:a/:b', (req, res) => {
