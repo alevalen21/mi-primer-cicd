@@ -4,6 +4,7 @@
   "description": "Laboratorio CI/CD - Pipeline automatizado",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "jest"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "homepage": "https://github.com/alevalen21/mi-primer-cicd#readme",
   "devDependencies": {
     "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
